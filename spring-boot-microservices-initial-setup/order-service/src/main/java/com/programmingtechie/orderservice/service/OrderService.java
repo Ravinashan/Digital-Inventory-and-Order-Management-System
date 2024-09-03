@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 public class OrderService {
 
     private final OrderRepository orderRepository;
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
 
     public void placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
@@ -38,8 +38,8 @@ public class OrderService {
                 .toList();
 
         // call inventory service and place order if product in stock
-        InventoryResponse[] inventoryResponses =  webClient.get()
-                                    .uri("http://localhost:8082/api/inventory", uriBuilder -> uriBuilder.queryParam("skuCodes", String.join(",", skuCodes)).build())
+        InventoryResponse[] inventoryResponses =  webClientBuilder.build().get()
+                                    .uri("http://inventory-service/api/inventory", uriBuilder -> uriBuilder.queryParam("skuCodes", String.join(",", skuCodes)).build())
                                     .retrieve()
                                     .bodyToMono(InventoryResponse[].class)
                                     .block();
@@ -61,7 +61,6 @@ public class OrderService {
         else{
             throw new IllegalArgumentException("product is not in stock please try again!");
         }
-
 
     }
 
