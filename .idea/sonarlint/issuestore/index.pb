@@ -379,12 +379,8 @@ k
 ;spring-boot-microservices-initial-setup/api-gateway/pom.xml,2\1\21cc79f6424e03c22715aff2bd77837a8f2925ac
 ?
 api-gateway.iml,3\8\386d2bdaf8fa402abed1019308dc9cf4b3635c9a
-í
-bspring-boot-microservices-initial-setup/api-gateway/src/main/java/com/programming/techie/Main.java,4\0\40bfd974b07eb76954214cab106017d2d6748a16
 Æ
 ~spring-boot-microservices-initial-setup/api-gateway/src/main/java/com/programming/techie/apigateway/ApiGatewayApplication.java,3\e\3ed1bbbe6920dc90ba6edc115eb736d6fa143734
-C
-api-gateway/pom.xml,2\b\2bfa2b108f2439e99e004f4085b58c22cf995f73
 Å
 Q.idea/sonarlint/securityhotspotstore/4/f/4ff2faba79eb03416ce6fd0b5fb947afcba1813a,2\5\25b52017904898dea556b1a20a82516e54bd0051
 Å
@@ -813,3 +809,9 @@ Q.idea/sonarlint/securityhotspotstore/8/1/81530c46ae3ab456715b4b9db3d2d473fefd79
 Q.idea/sonarlint/securityhotspotstore/6/b/6b892d72fac3f336a2592c45a5aeddaf78a60232,a\0\a0b837c1185f85a1367cba91f30c825ecc9f40f1
 Å
 Q.idea/sonarlint/securityhotspotstore/7/e/7ef19b6a2466214733bae79666a13a391ed8e96d,a\b\ab980fe21f9cc2fb967515e5b651cffcadc29162
+Å
+Q.idea/sonarlint/securityhotspotstore/3/8/386d2bdaf8fa402abed1019308dc9cf4b3635c9a,9\3\932fd8305e31ac056c54dd6f9adc0a1960066a90
+w
+G.idea/sonarlint/issuestore/3/8/386d2bdaf8fa402abed1019308dc9cf4b3635c9a,8\b\8bc7e5b45aef900ea35a617f949ffd6978f77c1d
+Å
+Q.idea/sonarlint/securityhotspotstore/3/e/3ed1bbbe6920dc90ba6edc115eb736d6fa143734,e\b\eb77d14928d983971b0e36c6a41731b22a088881
