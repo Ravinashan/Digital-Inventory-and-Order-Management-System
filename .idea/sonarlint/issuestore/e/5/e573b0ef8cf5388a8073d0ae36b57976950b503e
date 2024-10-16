@@ -1,2 +1,6 @@
 
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öõÿÿÿÿÿ8ŸÕØÛŒ2J$ef5e92a2-e3e6-4d19-8018-c8f1046cbf65
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öõÿÿÿÿÿ8ŸÕØÛŒ2J$a542a48e-c2c9-4069-8ed2-786e65b9ca9e
+p
+java:S1128"SRemove this unused import 'com.programmingtechie.inventoryservice.model.Inventory'.(Ø‘ÎÅ8½Ø¼Ü¨2
+\
+java:S1128"?Remove this unused import 'java.util.stream.Collectors.toList'.(ã‚ºÎ8½Ø¼Ü¨2
