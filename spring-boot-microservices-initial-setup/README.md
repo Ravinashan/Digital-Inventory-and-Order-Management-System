@@ -1,2 +1,3 @@
 # spring-boot-microservices-new
-This repository contains the latest source code of the spring-boot-microservices tutorial
+This repository contains microservices for a product order application with kafka messaging service
+
